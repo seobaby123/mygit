@@ -1,0 +1,6 @@
+CREATE TABLE student (
+ sno BIGINT (16) NOT NULL COMMENT '学号',
+ NAME VARCHAR (20) COMMENT '姓名',
+ age BIGINT (5) COMMENT '年龄',
+  PRIMARY KEY (sno)
+)
